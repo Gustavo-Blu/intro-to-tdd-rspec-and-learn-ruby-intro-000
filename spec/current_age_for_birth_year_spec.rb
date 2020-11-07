@@ -8,5 +8,7 @@ describe "current_age_for_birth_year method" do
   end
 end
 
-def current_age_for_birth_year
+def current_age_for_birth_year(x)
+  value = 2003 - x
+  return value
 end
